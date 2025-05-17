@@ -1,4 +1,3 @@
-
 # Projet : 🧠 Détection du Stress - Application Web avec Streamlit
 
 <p align="center">
