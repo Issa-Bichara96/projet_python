@@ -6,7 +6,7 @@
 
 ## Bienvenue chez MoodMetric
 
-Ce projet académique a été réalisé dans le cadre d’un travail pratique visant à concevoir une application web capable d’évaluer le niveau de stress d’un individu. Grâce à une interface intuitive développée avec **Streamlit** et à un modèle de **machine learning (Random Forest)**, l’application prédit si une personne a un **niveau de stress faible**, **moyen** ou **élevé**, en fonction de ses habitudes de vie.
+Ce projet académique a été réalisé dans le cadre d’un travail pratique visant à concevoir une application web capable d’évaluer le niveau de stress d’un individu. Grâce à une interface intuitive développée avec **Streamlit** et à un modèle de **machine learning (Random Forest)**, l’application prédit si une personne a un **niveau de stress faible**, **moyen** ou **élevé**, en fonction de ses habitudes de vie. Le but du projet etait de comprendre les bases de streamlit mais aussi le machine learning, pouvoir mettre au point une application web facile d'utilisation.
 
 ## 👥 Auteurs
 
