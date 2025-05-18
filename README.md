@@ -1,55 +1,85 @@
 # Projet : 🧠 Détection du Stress - Application Web avec Streamlit
 
+
 <p align="center">
   <img src="MoodMetric.png" alt="Logo de l'application" width="200"/>
 </p>
 
-## Bienvenue chez MoodMetric
+# MoodMetric - WebApp de Prédiction de Stress 🌡️🧠
 
-Ce projet académique a été réalisé dans le cadre d’un travail pratique visant à concevoir une application web capable d’évaluer le niveau de stress d’un individu. Grâce à une interface intuitive développée avec **Streamlit** et à un modèle de **machine learning (Random Forest)**, l’application prédit si une personne a un **niveau de stress faible**, **moyen** ou **élevé**, en fonction de ses habitudes de vie. Le but du projet etait de comprendre les bases de streamlit mais aussi le machine learning, pouvoir mettre au point une application web facile d'utilisation.
+Bienvenue dans **MoodMetric**, une application web interactive développée avec **Streamlit** qui permet d’évaluer automatiquement votre **niveau de stress** à partir de vos habitudes de vie, en utilisant un modèle de **machine learning**. Ce projet académique a été réalisé dans le cadre d’un travail pratique visant à concevoir une application web capable d’évaluer le niveau de stress d’un individu. Grâce à une interface intuitive développée avec **Streamlit** et à un modèle de **machine learning (Random Forest)**, l’application prédit si une personne a un **niveau de stress faible**, **moyen** ou **élevé**, en fonction de ses habitudes de vie. Le but du projet etait de comprendre les bases de streamlit mais aussi le machine learning, pouvoir mettre au point une application web facile d'utilisation.
 
-## 👥 Auteurs
+---
 
-- NAYA MAOUDANA KARE
-- Issa BICHARA 
+## 🎯 Objectif du Projet
 
-## 🔍 Nos données
+Ce projet a été réalisé dans le cadre du DU Data Analytics de l’Université Paris 1. L’objectif principal est de développer une application web en Python capable de :
 
-Les données proviennent d’un jeu de données disponible sur **Kaggle**. Pour cette application, apres le nettoyage de la base, les variables suivantes ont été sélectionnées dans le modele:
+- Recevoir des **entrées utilisateur** via une interface simple (sliders, menus déroulants).
+- Utiliser un modèle de **machine learning** entraîné pour **prédire le niveau de stress**.
+- **Afficher les résultats** de manière intuitive et pédagogique.
+- **Sensibiliser** les utilisateurs à l'importance de la gestion du stress.
 
-- Âge
-- Heures de sommeil par nuit
-- Heures d'activité physique par semaine
-- Temps d'écran par jour
-- Nombre de tasses de café par jour
-- Nombre de verres d’alcool par jour
-- Fumeur ou non
-- Heures de travail par jour
-- Temps de trajet quotidien pour aller au travail
-- Nombre d’interactions sociales hors travail
-- Pratique de la méditation ou non
+---
 
-## 🤖 Modèle de prédiction
+## 📁 Données Utilisées
 
-Le modèle utilisé est un **Random Forest Classifier**, entraîné pour classer les individus selon trois niveaux de stress :
+Le jeu de données utilisé provient d’une source ouverte et porte sur des auto-évaluations de stress basées sur divers **facteurs de style de vie** :
 
-- **Faible**
-- **Moyen**
-- **Élevé**
+- Durée de sommeil
+- Activité physique
+- Temps d'écran
+- Consommation de caféine et d'alcool
+- Habitudes de tabagisme
+- Pratique de la méditation
+- Heures de travail, interactions sociales, etc.
 
-En fonction du résultat, un **conseil personnalisé** est affiché pour aider l’utilisateur à mieux gérer son stress.
+Les colonnes non pertinentes ou redondantes ont été supprimées afin de se concentrer sur les variables les plus significatives pour la prédiction.
 
-## 🖥️ Interface utilisateur
+---
 
-L’utilisateur interagit avec l’application à l’aide de **sliders** pour ajuster ses habitudes de vie, puis clique sur un bouton **“Prédire”**. Le niveau de stress est alors affiché instantanément.
+## 🧠 Modèle de Machine Learning
 
-Aucune visualisation graphique n'est incluse, l'objectif étant de maintenir une interface simple et directe.
+Le modèle utilisé est un **Random Forest Classifier** de `scikit-learn`. Voici les étapes clés :
 
-## 📁 Arborescence du projet
+- Nettoyage et préparation des données
+- Encodage des variables binaires (`Yes/No` → `1/0`)
+- Séparation des données en `X` (features) et `y` (label)
+- Split des données en jeu d'entraînement et de test
+- Entraînement du modèle
+- Sauvegarde du modèle sous format `.pkl` via `pickle`
 
-📦 stress-detector
-├── application.py
-├── model.pkl
-├── requirements.txt
-├── README.md
-└── data/
+📄 Fichier concerné : `trainn_model.py`
+
+---
+
+## 🖥️ Fonctionnement de l'Application
+
+L'application a été construite avec **Streamlit** dans le fichier `application.py`. Elle comporte trois sections principales :
+
+### 🔹 Accueil
+
+- Interface utilisateur intuitive avec sliders et menus déroulants.
+- Bouton “Analyser mon stress” déclenchant la prédiction.
+- Affichage clair du niveau de stress (`Faible`, `Modéré`, `Élevé`) avec messages personnalisés.
+
+### 🔹 À propos
+
+- Explications sur le fonctionnement de l'application et du modèle.
+- Conseils personnalisés selon le niveau de stress prédit.
+
+### 🔹 Contact
+
+- Présentation des membres de l'équipe projet.
+- Coordonnées fictives pour contact.
+
+---
+
+## 🛠️ Technologies Utilisées
+
+- **Python 3**
+- **Streamlit**
+- **Scikit-learn**
+- **Pandas**
+- **Pickle**
+
