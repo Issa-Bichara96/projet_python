@@ -81,9 +81,9 @@ L'application a été construite avec **Streamlit** dans le fichier `application
 
 ## 🛠️ Technologies Utilisées
 
-- **Python 3**
-- **Streamlit**
-- **Scikit-learn**
-- **Pandas**
+- **Python 3 version 3.13.2**
+- **Streamlit version 1.44.1** 
+- **Scikit-learn verison 1.6.1**
+- **Pandas version 2.2.3**
 - **Pickle**
 
