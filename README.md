@@ -10,7 +10,7 @@ Ce projet académique a été réalisé dans le cadre d’un travail pratique vi
 
 ## 👥 Auteurs
 
-- Naya MAOUDANA KARE
+- NAYA MAOUDANA KARE
 - Issa BICHARA 
 
 ## 🔍 Nos données
