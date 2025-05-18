@@ -16,8 +16,9 @@ L’objectif principal de ce projet était de se familiariser avec les bases du 
 ---
 ## Equipe du Projet
 
-NAYA MAOUDANA KARE
-ISSA BICHARA Issa Djadallah
+- NAYA MAOUDANA KARE
+
+- ISSA BICHARA Issa Djadallah
 
 ---
 ## 🎯 Objectif du Projet
