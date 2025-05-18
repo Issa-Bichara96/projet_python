@@ -24,7 +24,7 @@ Ce projet a été réalisé dans le cadre du DU Data Analytics de l’Universit�
 
 ## 📁 Données Utilisées
 
-Le jeu de données utilisé provient d’une source ouverte et porte sur des auto-évaluations de stress basées sur divers **facteurs de style de vie** :
+Le jeu de données utilisé provient d’une source ouverte sur kaggle et porte sur des auto-évaluations de stress basées sur divers **facteurs de style de vie** :
 
 - Durée de sommeil
 - Activité physique
@@ -34,7 +34,7 @@ Le jeu de données utilisé provient d’une source ouverte et porte sur des aut
 - Pratique de la méditation
 - Heures de travail, interactions sociales, etc.
 
-Les colonnes non pertinentes ou redondantes ont été supprimées afin de se concentrer sur les variables les plus significatives pour la prédiction.
+Les colonnes non pertinentes ou redondantes ont été supprimées afin de se concentrer sur les variables les plus significatives pour la prédiction, les variables retenues sont celles citées ci-dessus.
 
 ---
 
