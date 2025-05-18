@@ -14,7 +14,12 @@ Ce projet a été réalisé dans le cadre d’un travail académique visant à c
 L’objectif principal de ce projet était de se familiariser avec les bases du développement d’interfaces interactives via Streamlit, tout en appliquant des concepts fondamentaux du machine learning pour construire une application web fonctionnelle, accessible et utile.
 
 ---
+## Equipe du Projet
 
+NAYA MAOUDANA KARE
+ISSA BICHARA Issa Djadallah
+
+---
 ## 🎯 Objectif du Projet
 
 Ce projet a été réalisé dans le cadre du DU Data Analytics de l’Université Paris 1. L’objectif principal est de développer une application web en Python capable de :
