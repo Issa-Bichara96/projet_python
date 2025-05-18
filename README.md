@@ -7,7 +7,11 @@
 
 # MoodMetric - WebApp de Prédiction de Stress 🌡️🧠
 
-Bienvenue dans **MoodMetric**, une application web interactive développée avec **Streamlit** qui permet d’évaluer automatiquement votre **niveau de stress** à partir de vos habitudes de vie, en utilisant un modèle de **machine learning**. Ce projet académique a été réalisé dans le cadre d’un travail pratique visant à concevoir une application web capable d’évaluer le niveau de stress d’un individu. Grâce à une interface intuitive développée avec **Streamlit** et à un modèle de **machine learning (Random Forest)**, l’application prédit si une personne a un **niveau de stress faible**, **moyen** ou **élevé**, en fonction de ses habitudes de vie. Le but du projet etait de comprendre les bases de streamlit mais aussi le machine learning, pouvoir mettre au point une application web facile d'utilisation.
+Bienvenue dans **MoodMetric**, une application web interactive développée avec **Streamlit**, conçue pour évaluer automatiquement votre **niveau de stress**  à partir de vos habitudes de vie.
+
+Ce projet a été réalisé dans le cadre d’un travail académique visant à concevoir une application capable de prédire le niveau de stress d’un individu en utilisant un modèle de **machine learning (Random Forest)**. Grâce à une interface simple et intuitive, l’utilisateur peut renseigner différentes informations liées à son mode de vie. L’application analyse ensuite ces données pour déterminer si le **niveau de stress faible**, **moyen** ou **élevé**.
+
+L’objectif principal de ce projet était de se familiariser avec les bases du développement d’interfaces interactives via Streamlit, tout en appliquant des concepts fondamentaux du machine learning pour construire une application web fonctionnelle, accessible et utile.
 
 ---
 
